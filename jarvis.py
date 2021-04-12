@@ -81,6 +81,10 @@ if __name__ =="__main__":
             speak("Your name is Kushagra Gupta, My creator and owner")
         elif 'who am I' in query:
             speak(" You are my BOSS , who created me ")
+        elif 'shutdown' or 'shut down' in query:
+            speak("Ok your beast laptop is going to shutdown")
+            os.system('shutdown -s')
+
 
 
 
